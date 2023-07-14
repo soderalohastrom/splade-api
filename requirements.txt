@@ -1,0 +1,6 @@
+flask
+flask-restful
+pandas
+transformers
+torch
+git+https://github.com/naver/splade.git
