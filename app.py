@@ -4,8 +4,6 @@ import torch
 
 app = Flask(__name__)
 
-@app.route('/')
-
 # Initialize the SPLADE model
 sparse_model = AutoModelForMaskedLM.from_pretrained("naver/splade-cocondenser-ensembledistil")
 
@@ -49,5 +47,4 @@ def sparse_vectors():
         "tokens": sparse_dict_tokens
     })
 
-if __name__ == '__main__':
     app.run()
