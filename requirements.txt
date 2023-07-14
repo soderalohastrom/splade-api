@@ -1,6 +1,7 @@
 flask
 flask-restful
 pandas
+gunicorn
 transformers
 torch
 git+https://github.com/naver/splade.git
